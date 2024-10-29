@@ -2,3 +2,9 @@ body {
     max-width: 1160px;
     margin: auto;
 }
+.photo-identite {
+    
+    border: 4px solid;
+    border-radius: 50%;
+    max-width: 200px;
+}
