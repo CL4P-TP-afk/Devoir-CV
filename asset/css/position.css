@@ -4,6 +4,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+img {
+    max-width: 16px;
+    margin: 0 0.5em;
+}
 /* identify-contact */
 .photo-identite {
 
@@ -39,5 +43,15 @@ section {
     margin-left: 2em;
     margin-right: 2em;
     
+}
+
+/*pied de page*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer > div {
+    margin-top: 0.5em;
 }
 
