@@ -13,3 +13,12 @@ header, footer {
 img {
     color: #ffffff;
 }
+
+h1, .job, .contact, footer>small, a {
+    color: #ffffff;
+}
+h2, h3>time, .stars, li::marker {
+    color: #17abb3;
+}
+
+ 
