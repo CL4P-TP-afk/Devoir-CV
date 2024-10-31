@@ -53,13 +53,14 @@ header {
 main {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    
 }
 
 section {
-    margin-left: 2em;
-    margin-right: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
     
 }
 section > ul {
