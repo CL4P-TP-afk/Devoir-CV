@@ -8,7 +8,7 @@ header, main, footer {
     width: 1160px;
     margin: auto;
 }
-img {
+img[alt|=icon] {
     max-width: 16px;
     margin: 0 0.5em;
 }
