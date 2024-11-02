@@ -27,7 +27,7 @@ img {
     border: 4px solid;
     border-radius: 50%;
     max-width: 150px;
-    max-height: 150px;
+    height: 150px;
 
 }
 
@@ -46,6 +46,8 @@ header {
 }
 .contact > ul > li {
     list-style: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 /* --- description --- */
@@ -53,13 +55,14 @@ header {
 main {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    
 }
 
 section {
-    margin-left: 2em;
-    margin-right: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
     
 }
 section > ul {
