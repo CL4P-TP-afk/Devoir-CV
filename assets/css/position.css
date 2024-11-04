@@ -1,13 +1,16 @@
 /* --- all --- */
 body {
-    
     display: flex;
     flex-direction: column;
 }
-header, main, footer {
+
+header,
+main,
+footer {
     width: 1160px;
     margin: auto;
 }
+
 img[alt|=icon] {
     max-width: 16px;
     margin: 0 0.5em;
@@ -16,12 +19,20 @@ img[alt|=icon] {
 .no-marker {
     padding-inline-start: 0px;
 }
-.no-marker > li {
-    list-style: none;
+
+.no-marker>li {
     display: flex;
     justify-content: space-between;
 }
+
 /* --- identify-contact --- */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .photo-identite {
 
     border: 4px solid;
@@ -31,20 +42,23 @@ img[alt|=icon] {
 
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-
-}
-.job , h1 {
+.job,
+h1 {
     text-align: center;
 }
+
+h1 {
+    margin-bottom: 0;
+}
+.job {
+    margin-top: 0;
+}
+
 .contact {
     display: flex;
 }
-.contact > ul > li {
+
+.contact>ul>li {
     list-style: none;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -55,7 +69,7 @@ header {
 main {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    
+
 }
 
 section {
@@ -63,17 +77,23 @@ section {
     padding-right: 2em;
     padding-top: 3em;
     padding-bottom: 3em;
-    
+
 }
-section > ul {
+
+section>ul {
     padding-inline-start: 20px;
     list-style-type: square;
 }
+
 h3 {
     margin-block: 1em 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+p{
+    margin: 0;
 }
 
 /* ---footer--- */
@@ -82,11 +102,12 @@ footer {
     flex-direction: column;
     align-items: center;
 }
-footer > div {
+
+footer>div {
     margin-top: 1em;
 }
-footer > small {
+
+footer>small {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
-
