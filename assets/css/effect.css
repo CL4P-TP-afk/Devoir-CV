@@ -9,6 +9,8 @@ section div:hover {
 header>a:hover {
     cursor: zoom-in;
 }
+
+/*effet sur les icones*/
 img[alt|=icon]:hover {
-    filter: opacity(75%);
+    filter: opacity(70%);
 }

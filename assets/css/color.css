@@ -1,24 +1,39 @@
 body {
     background-color: #f5f5f5;
 }
-header, footer {
+
+header,
+footer {
     background-color: #17abb3;
 }
+
 .skills {
     background-color: #e3e3e3;
 }
+
 .profil {
     background-color: #ffffff;
 }
+
 img {
     color: #ffffff;
 }
 
-h1, .job, .contact, footer>small, a {
+h1,
+.job,
+.contact,
+footer>small,
+a {
     color: #ffffff;
 }
-h2, h3>time, .stars, li::marker {
+
+h2,
+h3>time,
+.stars,
+li::marker {
     color: #17abb3;
 }
 
- 
+hr {
+    filter: opacity(30%);
+}
